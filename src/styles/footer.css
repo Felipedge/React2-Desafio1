@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=PT+Sans+Caption&display=swap');
+.bajada{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 30px;
+}
+.footer-page{
+    text-align: center;
+}

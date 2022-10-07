@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
-import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
-import Navbar from "./Pages/Navbar";
-import Footer from "./Pages/Footer";
+import Home from "./Views/Home";
+import Navbar from "./Views/Navbar"
+import Pokemons from "./Views/Pokemons";
+import Details from "./Views/Details";
 
 export default function App() {
     return (
@@ -13,9 +13,9 @@ export default function App() {
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/Pokemons" element={<Pokemons />} />
+                    <Route path="/Pokemons/:name" element={<Details />} />
                 </Routes>
-                <Footer />
             </BrowserRouter>
         </div>
     )
